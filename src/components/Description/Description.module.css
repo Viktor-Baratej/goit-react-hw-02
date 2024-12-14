@@ -1,0 +1,12 @@
+.description_text {
+  margin-bottom: 30px;
+}
+.description_title {
+  color: rgb(53, 37, 12);
+  display: inline-block;
+  font-size: 40px;
+  transition: transform 0.8s ease;
+  &&:hover {
+    transform: scale(1.5);
+  }
+}
